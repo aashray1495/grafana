@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: grafana
-        image: 411026478373.dkr.ecr.us-east-1.amazonaws.com/grafana:v6.6.1-flux
+        image: nubee/grafana:v1
         ports:
           - containerPort : 3000
         env:
